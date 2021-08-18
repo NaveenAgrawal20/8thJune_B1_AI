@@ -109,7 +109,6 @@ class TicTac():
         self.b7.grid(row=2, column=0)
         self.b8.grid(row=2, column=1)
         self.b9.grid(row=2, column=2)
-        self._cpuMove()
 
     def btn_click(self, b, num):
         if b['text'] == ' ' and self.clicked:
